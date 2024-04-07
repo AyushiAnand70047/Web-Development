@@ -1,0 +1,31 @@
+-> Create folder
+-> got to that folder inside terminal (cd folderPath)
+-> run command -> npm init -y (to get package.json file)
+-> inside project folder (npm i express)
+-> Create server.js file inside that folder
+-> run server.js (node server.js)
+-> to stop server (ctrl + c)
+
+-> download postman
+-> go to postman (New -> HTTP request -> select POST request)
+-> give url and as it is POST request so we need to send data (body -> raw -> JSON format) then give data
+-> then send the url we will get error in parsing the data
+-> to resolve this error we need to define parsing using body-parser
+-> testing done of post request from POSTMAN 
+
+-> download MongoDB and add path to environment variable (No SQL Database, we can store data in the forms of document/ key value pairs/ graph)
+-> download MongoDB Compass (GUI)
+-> run command mongo (in version 5) on terminal to get mongo shell
+-> show dbs (to see database persent)
+-> open MongoDB Compass (default port is given - connect -> Create Database)
+-> Now perform CRUD operation using compass
+-> go to add data then insert document, now add data then click insert
+-> to find data, write key value then click find
+-> to update data, find data then click edit, edit it then click update
+-> to delete data, click on delete symbol than delete it
+
+-> link server with database (using mongoose(a middleware))
+-> go to terminal (npm i mongoose)
+-> require mongoose in server.js and connect to db by giving url/databaseName
+-> databaseName -> if database not persent then it will first create it then link node js with database
+-> now start the server (node server.js)
