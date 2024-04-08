@@ -1,0 +1,16 @@
+JavaScript: It is a scripting language/lightweight programming use to add functionality and behaviours
+in starting it was client side language can use only inside browser
+To run JavaScript we need JS Engine (Node Js -> can use outside the browser, server-side)
+we can run javascript both client side and server side
+
+Variable: Named memory location where we can store any type of data
+
+console window is a tool where web application can print message
+
+Primitive data types: String, Number, Boolean, Undefined(Variable is declared but value is not defined), Null(explicit giving value to null)
+
+Dynamic Typing: we can re assign any type of data inside a variable
+
+Refrence Types: Objects, Arrays, Functions
+
+Operators: Airthmetic, Assignment, Comparison, Bitwise, Logical
