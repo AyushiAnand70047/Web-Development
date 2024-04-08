@@ -1,0 +1,33 @@
+-> open terminal (cd Class2)
+-> npm init -y
+-> npm install express
+-> create file index.js write code for creating server
+-> node index.js (start server)
+
+-> install nodemon (npm i nodemon)
+-> go to package.json and inside script remove tests and add start as node index.js and dev as nodemon index.js
+-> now we can write (npm run start) or (npm run dev) to start the server
+
+-> make folder structure for increase redability (folders -> config, controllers, models, routes) and a .env file
+-> add port number and database url inside .env file
+-> inside config folder, make file database.js then install mongoose inside Class2 (npm i mongoose) now write code in database.js for connecting node js with database
+-> install .env library inside Class2 (npm i dotenv) then require it in database.js (require("dotenv").config())
+-> then export it (module.exports = dbConnect)
+
+-> inside models folder create file Todo.js and define schema(schema is description of data) in it then export (module.exports = mongoose.model("Todo", todoSchema);)
+
+-> inside controllers folder, create new file createTodo.js
+
+-> inside routes folder, create todos.js and define route inside it
+
+-> now start the server (npm run dev)
+
+-> go to mongodb compass and check whether database created or not
+-> as database created (now to insert data), open postman (new -> http -> post -> give url(http://localhost:3000/api/v1/createTodo) -> body -> raw -> json then write data then send now go to database reload then you see inserted data )
+
+-> index.js (driver crode, server create)
+-> database.js (configration for connecting with database and node js)
+-> Todo.js(define schema, description and logical representation of what object contain)
+-> createTodo.js (make Todo type object and insert it in database)
+-> todos.js (routes, which controller is match with which path)
+-> .env (Port number and database url)
