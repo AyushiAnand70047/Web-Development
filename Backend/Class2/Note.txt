@@ -31,3 +31,25 @@
 -> createTodo.js (make Todo type object and insert it in database)
 -> todos.js (routes, which controller is match with which path)
 -> .env (Port number and database url)
+
+-> create GET TODOS API route 
+-> create file getTodo.js inside controller folder
+-> import this getTodo in routes folder in todos.js then define API routes
+-> now write code in getTodo.js import models/Todo then define route handler
+-> go to postman first give the path of createTodo then select POST the insert value and click send
+-> now select POST change the path to getTodo then send you will get the inserted data
+
+-> GET Single Todo inside routes define getTodoById and define API route for it ("/getTodos/id") 
+->exports.getTodoById inside getTodo.js
+-> now select GET and send url with id of any stored database data, you will see the whole that with that id
+
+-> updateTodo.js inside controller
+-> inside routes import updateTodo and define API route for it
+-> inside updateTodo first import schema form models/Todo then define route handler
+-> go to postman select PUT request and give url then change the data(body->row->json) and SEND
+
+-> deleteTodo.js inside controller
+-> inside routes import deleteTodo and define API route for it
+-> now inside deleteTodo define route halndler
+-> go to postman select request as delete and add url of deleteTodo with id then send
+-> now you can see in database that todo with that id is deleted successfully

@@ -15,7 +15,7 @@
 
 -> download MongoDB and add path to environment variable (No SQL Database, we can store data in the forms of document/ key value pairs/ graph)
 -> download MongoDB Compass (GUI)
--> run command mongo (in version 5) on terminal to get mongo shell
+-> run command mongosh on terminal to get mongo shell
 -> show dbs (to see database persent)
 -> open MongoDB Compass (default port is given - connect -> Create Database)
 -> Now perform CRUD operation using compass

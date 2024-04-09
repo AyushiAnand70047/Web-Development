@@ -1,0 +1,4 @@
+Create Blog App
+-> Define routes for creating(/posts/create) and retrieveing(/posts) post
+-> define route for liking(/likes/like) & unliking(likes/unlike) post
+-> define route for creating(/comments/create) & retrieveing comments(/comments)
