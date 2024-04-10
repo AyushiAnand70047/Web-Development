@@ -1,0 +1,33 @@
+function -> well defined program to do specific task (code for repetiton of task)
+object -> real world entity
+
+function inside a object is called method
+
+How to create object?
+-> factory function 
+-> constructor function
+
+Dynamic nature of objects -> after creation of object we can add or remove any property
+
+constructor property -> function is also an object(we can access some properties or method using dot operator) and every function is having its own constructor
+
+Types in JS 
+-> Primitive or Value Types (Number, String, Boolean, Undefined, Null)
+-> Reference types or objects ((functions, objects, arrays)all are object)
+
+difference in primitive types and Reference types 
+-> in case of primitive type if a = 10, b = a then copy of value of a is passed in b
+-> in case of reference type if a = {value: 10}, b = a then address of a is passed b will point same memory location as of a
+-> Primitive are copied by their value , Refrences are copied by their address/ refrences
+
+Iterating through objects: for-in-loop
+Iterating through iterables(arrays,maps): for-of-loop
+
+Object Cloning
+-> Iteration
+-> Assign
+-> Spread
+
+Garbage collection 
+-> find variable and constant which are not in use and it deallocate memory of that automatically
+-> we have no control on garbage collector (run in background)
