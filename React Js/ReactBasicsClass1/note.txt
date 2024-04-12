@@ -1,0 +1,34 @@
+React:- Javascript library use to create user interface
+
+React is all about component (reusable piece of code)
+
+Inside react we follow single page application approach(one page is loaded we dynamically change it)
+
+Why React?
+-> Reusability
+-> Follow Don't repeat yourself
+-> Readability
+-> sepration of code
+-> maintainability
+
+Steps:
+-> Install node Js
+-> VS code
+-> Create a new folder
+-> change directory to the created folder
+-> npx create-react-app demoshopapp
+-> move to demoshopapp
+-> npm start
+
+way 2 -> use Replit online
+
+package.json -> file in which all dependencies, script and versions is listed
+index.js(entry point) -> first js file to execute when page is reloaded
+src -> app.js(), index.js(first file to execute, here react create own root for that it fetch root element from index.html, root element render app component), index.css(css configuration for index.js)
+public -> index.html (root element)
+
+JSX(Javascript XML) -> HTML code inside Javascript
+
+npm start (convert react code in equivalent html and javascript code which browser can understand)
+
+props.chlidren (by default anything in my component tag is not visible to make it visible we use props.children in return tag of component file)

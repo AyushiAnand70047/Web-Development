@@ -1,0 +1,41 @@
+Folder Structure:
+-> index.js (Driver Code)
+-> config -> database.js
+-> .env (having port number and database url)
+-> models (post/like/comment)
+-> routes (map path with controller)
+-> controllers (bussiness logic (how to like, dislike, create, fetch))
+
+npm init -y (initiliase)
+npm i nodemon
+
+inside package.json -> scripts
+-> "start": "node index.js"
+-> "dev": "nodemon index.js"
+
+npm i express
+index.js
+-> express instantiate, create server
+-> load env
+-> use middleware for parsing data
+-> import routes file then mount
+-> fetch database and call the function
+-> start server
+-> add default route
+
+npm run dev (start server)
+
+npm i dotenv
+.env
+-> PORT, DATABASE_URL
+
+npm i mongoose
+config/database.js
+-> require dotenv
+-> write code of database connecion
+-> export init
+
+models
+-> postModel.js (title,body, multiple likes(id reference), multiple comments(id reference))
+-> likeModel.js (post, user)
+-> comment.js (post, comment body, user)
