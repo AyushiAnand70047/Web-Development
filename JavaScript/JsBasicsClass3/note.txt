@@ -1,0 +1,3 @@
+In-built Objects & Arrays
+
+Arrays(collection of item) -> Object/ reference type
