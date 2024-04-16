@@ -2,14 +2,14 @@
 const mongoose = require("mongoose");
 
 // route handler
-const commentsSchema = new mongoose.Schema({
+const commentSchema = new mongoose.Schema({
     post: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Post" // this is reference to post model
     },
     user: {
         type: String,
-        require: true
+        required: true
     },
     body: {
         type: String,
@@ -18,4 +18,4 @@ const commentsSchema = new mongoose.Schema({
 });
 
 // export
-module.exports = mongoose.model("Comment",commentsSchema);
+module.exports = mongoose.model("Comment", commentSchema);
