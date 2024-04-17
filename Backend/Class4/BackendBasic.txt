@@ -1,0 +1,66 @@
+Client requesting to Server and Server fullfil its request and send response
+
+Domain Name Resolution -> convert string url(suppose www.google.com) to address of the server and request send to the that server then server send the response to user machine
+
+Express -> it is a Node js framework by which we can create server side applications that can handle HTTP request and responses, connect to databases and perform other tasks.
+
+Library (collection of reusable piece of component, we call library code) 
+framework (is an application, framework call our code)
+
+Mongoose (help in connecting our application with database Mongo DB)
+
+start the server(app.listen())
+
+Middleware(app.use()) -> function which processes some additional task on incoming HTTP requests
+
+express.json() -> we can parse or fetch the data from request body
+
+Routes(how different urls work) -> website is having mutiple pages and each page is mapped with some url
+
+Mounting(appending something with base url then call route handler)
+
+Testing API Routes
+
+MongoDB(data is stored in the form of documents or graphs or key value pairs)
+
+Nodemon (a tool for node js, whenever changes in code is detected it reflect changes in backend or UI by automatically restarting the server )
+npm i nodemon (command to install nodemon)
+add entry of nodemon inside script inside package.json("dev": "nodemon index.js")
+npm run dev to start server using nodemon tool
+
+export syntax
+-> module.exports = myObject;
+-> exports.myFunction1 = myFunction1; exports.myFunction2 = myFunction2;
+-> exports.myObject1 = myObject1; exports.myObject2 = myObject2;
+
+Schema (it is a blueprint that defines structure of data)
+Model (a class having properties and behaviour in which we include Schema)
+
+Optimal Folder Structure:
+MVC (Model-View-Controller)
+-> Model (we define data object, properties and behaviour)
+-> Controller (is a file having different different functions and handler in which business logic of application is defined)
+-> View (Contain UI part, use for templating)
+
+different types of Interaction with DB:
+-> single level Interaction (get/put/post/delete)
+
+"ref" option in moongose Schema -> reference to other model
+
+different types of error/ status code 
+-> 200 (request successful)
+-> 400 (not found)
+-> 500 (Internal server error)
+
+HTTP request type: (CRUD operation)
+-> get (read the data)
+-> put (update the data)
+-> post (create the data)
+-> delete (delete the data)
+
+Creating App:
+-> Create folder (mkdir folderName)
+-> Open terminal and move to that folder (cd pathOfFolder)
+-> npm init -y (to create package.json file for our application)
+-> create file index.js
+-> npm install express
