@@ -8,6 +8,7 @@ Library (collection of reusable piece of component, we call library code)
 framework (is an application, framework call our code)
 
 Mongoose (help in connecting our application with database Mongo DB)
+Mongoose(Object Data Modeling Library) -> provide abstraction layer on MongoDB
 
 start the server(app.listen())
 
