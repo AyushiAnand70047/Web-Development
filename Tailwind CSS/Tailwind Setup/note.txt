@@ -1,0 +1,32 @@
+Talwind Setup:
+
+https://tailwindcss.com/docs/installation/using-postcss
+
+-> install node js
+-> npm init
+-> npm i vite
+-> npm install -D tailwindcss postcss autoprefixer
+-> npx tailwindcss init
+-> create file postcss.config.js and find code from talwind css website for it
+
+    or
+
+-> install node js
+-> npm install -D tailwindcss postcss autoprefixer vite
+-> npx tailwindcss init -p
+
+-> install tailwind css intelisense extension
+-> inside tailwind.config.js add * inside content so that it address entire file
+-> go to package.json and add start script as vite
+-> create file main.css and find its code from talwind website:
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+-> create file index.html and add boilerplate code then link css file in it
+-> now you can add talwind properties
+-> npm start (to start the app)
+-> ctrl + c (to quit)
+
+
+Tailwind is utility first css framework
+styling is inside html document as we will get pre defined classes and can make responsive design using that
