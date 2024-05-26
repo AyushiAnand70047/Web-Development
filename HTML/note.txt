@@ -1,0 +1,38 @@
+Documentation: mdn web docs or w3 schools
+
+HTML(Hyper text markup language) 
+hypertext: one page is linked with other page
+markup: annotations/tags used to markup content
+language: set of rules
+-> provide description of web page.
+-> basic building block of web
+-> skeleton of web pages
+-> It is not case sensitive
+
+Tags:- tag is something that tells browser how to render different element
+
+element: opening tag + content + closing tag
+
+HTML text element:
+-> Block elements (use to categriosing the content on web page in the form of block, ex: heading, div, p)
+-> Inline elements (use to differentiate specific part of text, ex: <i></i>, <em></em>,<b></b>,<img/>)
+
+Empty tag: self closing tag
+ex: <br/>, <img/>, <input/>
+
+List:
+-> Ordered List
+-> Unordered List
+-> Description List
+
+Attributes: provide additional information about element
+ex: <img src="./kurkure.jpg" width="200"> (src, width is attribute or property of img tag and ./kurkure.jpg is value of src attribute)
+
+boilerplate code:
+<!DOCTYPE html> (it tells browser it is html version 5 document)
+<html lang="en"><html> (lang is attribute, tells content of web page is in english)
+<head></head> (meta data of html doc)
+meta tag: (define metadata(data about data, not display to user) about HTML docs | use to specify character set, page description, keywords, author, viewport)
+<meta charset="utf-8"> (character encoding)
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> (viewport: visible area on screen, device-width(width of device such as laptop or mobile), initial-scale: it control the zoom level one the page is first reloaded)
+<body></body> (actual content)
