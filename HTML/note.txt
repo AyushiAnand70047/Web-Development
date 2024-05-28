@@ -46,3 +46,16 @@ colgroup: it is tag use when we have to style specific column
 <q> tag is used for shorter inline quotes
 cite attribute (link of that source)
 cite tag:  cite the author of quote in italic
+
+<div> tag: division tag (basically create division for different content)
+span: same as div but it is inline element while div is block element
+
+semantic tags: provide meaning to content which is inside that tag
+ex: table tag, form tag, section tag, header, footer, nav, figure,... etc
+
+section tag: define section in your document
+article tag: independent text
+header tag: introductory part of web document
+nav tag: for navigational link
+footer tag: end of document contain author name, copyright,...
+aside tag: contain information which is indirectly related with surrounding content
