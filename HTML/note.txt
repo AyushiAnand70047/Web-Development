@@ -36,3 +36,13 @@ meta tag: (define metadata(data about data, not display to user) about HTML docs
 <meta charset="utf-8"> (character encoding)
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> (viewport: visible area on screen, device-width(width of device such as laptop or mobile), initial-scale: it control the zoom level one the page is first reloaded)
 <body></body> (actual content)
+
+table(thead, tbody, tfoot)
+Colspan: property which allow to extend a particular column till multiple column
+rowspan: property which allow to extend a particular row till multiple row
+colgroup: it is tag use when we have to style specific column
+
+<blockquote>: tag specifies a section that is quoted from another source.
+<q> tag is used for shorter inline quotes
+cite attribute (link of that source)
+cite tag:  cite the author of quote in italic

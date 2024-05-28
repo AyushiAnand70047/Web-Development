@@ -5,29 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        table,tr,th,td{
+        table,tr,td{
             border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
     <table>
-        <thead>
-            <tr colspan="3">
-                <th>Day</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Monday</td>
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-            </tr>
-        </tbody>
+        <colgroup>
+            <col span="1"> <!--no colour on column1, column2:-aqua, column3:-green-->
+            <col span="1" style="background-color: aqua;">
+            <col span="1" style="background-color: green;">
+            <!--hide 4th column-->
+            <col span="1" style="visibility: collapse;">
+        </colgroup>
+        <tr>
+            <td rowspan="2">State of Health</td>
+            <td colspan="2">Fasting Values</td>
+            <td>After Eating</td>
+        </tr>
+        <tr>
+            <td>Minimum</td>
+            <td>Maximum</td>
+            <td>2 hours after eating</td>
+        </tr>
+        <tr>
+            <td>Healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+        <tr>
+            <td>Pre-Diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>Diabetes</td>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
     </table>
 </body>
 </html>
