@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            margin: 10px;
+            /* on adding padding: 25px, padding will added and content height and width will remain same, box size gets increased*/
+            padding: 25px;
+            /* on adding box-sizing: border-box, padding will added and content height and width will decrease*/
+            box-sizing: border-box; 
+        }
+        #org{
+            background-color: orange;
+        }
+        #grn{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="org">A </div>
+    <div class="box" id="wht">B</div>
+    <div class="box" id="grn">C</div>
+</body>
+</html>

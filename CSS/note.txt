@@ -1,0 +1,47 @@
+CSS: Cascading Style Sheet
+
+HTML(description, skeleton)
+CSS(apperance, styling, formatting)
+
+Selectors(way using which we can select a element) in CSS
+1. Simple Selector
+   (i) Element Selector: we can select an element for css by using element's tag name.
+   (ii) Class Selector: we can select group of element for css by providing class attribute.
+   (iii) ID Selector: we can do styling on particular element by giving id attribute.
+2. Psuedo-class Selector: A CSS Psuedo-class is a keyword added to a Selector that specifies a special state of the selected element(s). For example: :hover can be used to change a button's color when the user's pointer hovers over it. (selector: psuedoclass{property: value})
+3. Multiple Selector: selecting multiple HTML elements for same CSS rule by separating them with commas.
+-> Universal Selector
+-> Nested Selector
+-> Attribute Selector
+
+Adding styling to HTML:
+-> Inline: for styling HTML element you can add style attribute directly to opening tag 
+-> Internal: for styling HTML element you can add style tag inside head element.
+-> External: create a separate file for CSS code and link it with HTML document using <link> element
+
+Specificity: elements can have multiple selector, there is hierarchy for the weight given to each type of selector.
+-> !important in any property
+-> inline css
+-> id selector
+-> class selector
+-> element selector
+
+Box model in css:
+-> According to box model concept, every element on a page is a rectangular box and may have width, height, padding, borders, and margins.
+
+Colors in css:
+-> Hexadecimal Colors: #RRGGBB (all values must be between 00 and FF)
+-> rgb Colors: rgb(red,green,blue)  (integer between 0 to 255)
+-> predefined/ cross-browser color names: 140 color names are predefined in the HTML and CSS color specification.(ex: blue, black, yellow, aqua,...etc)
+-> rgba Colors
+-> HSL Colors
+-> HSLA Colors
+
+Font: font-family, font-weight, font-style, emphasis & important, add external fonts
+
+Units in css:
+1. Absolute Unit (mm, cm, in, px)(fixed for all screen size)
+2. Percentage Unit (x% of parent container)
+3. Relative Unit 
+  (i) Relative to font size (em (x em = x * parent element size), rem (relative to root/html element))
+  (ii) Related to viewport (vw (1/100 of width of viewport), vh(1/100 of height of viewport)) 
