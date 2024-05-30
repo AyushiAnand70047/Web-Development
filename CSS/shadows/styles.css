@@ -1,0 +1,15 @@
+h1{
+    text-shadow: 3px 3px pink;
+    /*applying multiple shadow*/
+    text-shadow: 3px 3px pink, 6px 6px yellow;
+}
+/*default: shadow color is same as text color*/
+#box{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: aqua;
+    box-shadow: 10px 10px;
+    box-shadow: 10px 10px 20px red; /*Horizontal value, vertical value, blur, color*/
+    box-shadow: -10px -10px 20px red;
+}

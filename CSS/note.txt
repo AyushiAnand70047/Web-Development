@@ -45,3 +45,42 @@ Units in css:
 3. Relative Unit 
   (i) Relative to font size (em (x em = x * parent element size), rem (relative to root/html element))
   (ii) Related to viewport (vw (1/100 of width of viewport), vh(1/100 of height of viewport)) 
+
+CSS gradients(CSS gradients let you display smooth transitions between two or more specified colors.)
+-> Linear gradients (goes down/up/left/right/diagonally)
+-> Radial gradients (defined by their center)
+-> Conic gradients (rotated around a center point)
+
+CSS Shadow Effects(we can add shadow to text and to elements)
+-> Text shadow
+-> Box shadow
+
+CSS Dimension properties:
+-> width
+-> height
+-> min-width
+-> min-height (content will not overflow , as it increase and become greater than box size, box size gets increase as of content size)
+-> max-width
+-> max-height (content will overflow as it increase and become greater than box size)
+
+overflow property:
+values
+-> visible (default value)
+-> hidden
+-> scroll
+-> auto (if content is small it behave as visible, else as scroll)
+
+CSS Position property:
+-> static (default, normal position)
+-> relative (relative to its normal position)
+-> fixed
+-> Absolute
+-> sticky
+
+CSS 2D transforms:
+-> translate()
+-> rotate()
+-> scaleX()
+-> scaleY()
+-> skew()
+-> matrix() (all transform properties can use in single)
