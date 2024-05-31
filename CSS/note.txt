@@ -72,10 +72,10 @@ values
 
 CSS Position property:
 -> static (default, normal position)
--> relative (relative to its normal position)
--> fixed
--> Absolute
--> sticky
+-> relative (position relative to its normal position)
+-> fixed (position is fixed throughout document, on scrolling down its still visible)
+-> Absolute (position with respect to nearest positioned ancestor which is positioned non static, else with respect to body)
+-> sticky (work with position)
 
 CSS 2D transforms:
 -> translate()
@@ -84,3 +84,6 @@ CSS 2D transforms:
 -> scaleY()
 -> skew()
 -> matrix() (all transform properties can use in single)
+
+CSS 3D transforms (operations can be performed with respect to 3D space)
+for transform(except rotation) in 3d(in z axis) we need to set perspective()
