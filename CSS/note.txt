@@ -87,3 +87,21 @@ CSS 2D transforms:
 
 CSS 3D transforms (operations can be performed with respect to 3D space)
 for transform(except rotation) in 3d(in z axis) we need to set perspective()
+
+CSS FlexBox (a way to get more flexibility in layouts and to simplify responsive layout design)
+
+Flex-container properties:
+-> Flex-direction
+-> Flex-wrap (wrap-> preserve the width)
+-> Flex-flow (flex-flow: Flex-direction Flex-wrap;)
+-> justify-content (align items according to main-axis(horizontal axis))
+-> align-items (align items according to cross axis(vertical axis))
+-> align-content (handle spacing between rows of flex-items)
+
+Flex-items properties
+-> Order
+-> flex-grow
+-> flex-shrink
+-> flex-basis
+-> flex (shorthend notation -> order,flex-grow,flex-shrink,flex-basis)
+-> align-self
