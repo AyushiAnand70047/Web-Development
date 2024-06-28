@@ -17,7 +17,9 @@ let passwordLength = 10;
 let checkCount = 0;
 
 handleSlider();
+
 // set strength circle color
+setIndicator("#ccc")
 
 // set password length
 function handleSlider() {
@@ -117,7 +119,7 @@ copyBtn.addEventListener('click', () => {
 
 generateBtn.addEventListener('click', () => {
   // none of the checkbox are selected
-  if (checkCount <= 0) return;
+  if (checkCount == 0) return;
 
   if (passwordLength < checkCount) {
     passwordLength = checkCount;
